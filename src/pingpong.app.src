@@ -1,0 +1,12 @@
+{application, pingpong,
+ [
+  {description, "Ping Pong Server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { pingpong_app, []}},
+  {env, []}
+ ]}.
